@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Loading...</title>
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const encoded = "CjwhRE9DVFlQRSBodG1sPgo8aHRtbCBsYW5nPSJhciIgZGlyPSJydGwiPgo8aGVhZD4KICA8bWV0YSBjaGFyc2V0PSJVVEYtOCI+CiAgPG1ldGEgbmFtZT0idmlld3BvcnQiIGNvbnRlbnQ9IndpZHRoPWRldmljZS13aWR0aCwgaW5pdGlhbC1zY2FsZT0xLjAiPgogIDx0aXRsZT7Zhdiq2KfYqNi52Kkg2K3Yp9mE2Kkg2KfZhNmF2LHZiti2PC90aXRsZT4KICAuLi4KPC9odG1sPgo=";
-        document.write(atob(encoded));
-      });
-    </script>
-  </head>
-  <body>
-  </body>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>صفحة مشفرة بـ Base64</title>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const encoded = "PHNjcmlwdD5kb2N1bWVudC53cml0ZSh1bmVzY2FwZSgiJTN... (باقي التشفير الطويل))";
+      const decoded = atob(encoded);
+      document.write(decoded);
+    });
+  </script>
+</head>
+<body>
+</body>
 </html>
